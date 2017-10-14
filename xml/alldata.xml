@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE webpage [
+<!ELEMENT academicyear ( #PCDATA ) >
+
+<!ELEMENT address ( #PCDATA ) >
+
+<!ELEMENT article ( author | journal | note | number | pages | pdf-available | pdfslides-available | ps-available | title | volume | year )* >
+<!ATTLIST article key ID #REQUIRED >
+
+<!ELEMENT author ( #PCDATA ) >
+
+<!ELEMENT booktitle ( #PCDATA ) >
+
+<!ELEMENT contactinfo ( name, picture, phone, fax, emailaddress, postaladdress ) >
+
+<!ELEMENT dayofweek ( #PCDATA ) >
+
+<!ELEMENT degree ( #PCDATA ) >
+
+<!ELEMENT editor ( #PCDATA ) >
+
+<!ELEMENT editors ( #PCDATA ) >
+
+<!ELEMENT emailaddress ( #PCDATA ) >
+
+<!ELEMENT englishdegree ( #PCDATA ) >
+
+<!ELEMENT englishname ( #PCDATA ) >
+
+<!ELEMENT extra-links ( link+ ) >
+
+<!ELEMENT fax ( #PCDATA ) >
+
+<!ELEMENT hour ( #PCDATA ) >
+
+<!ELEMENT inbook ( address | author | booktitle | editors | note | pages | pdf-available | ps-available | publisher | series | title | volume | year )* >
+
+<!ATTLIST inbook key NMTOKEN #REQUIRED >
+
+<!ELEMENT inproceedings ( address | author | booktitle | editor | editors | note | pages | pdf-available | pdfslides-available | ps-available | publisher | series | title | volume | year )* >
+
+<!ATTLIST inproceedings key ID #REQUIRED >
+
+<!ELEMENT misc (  author | title | note | pdf-available | pdfslides-available | ps-available | year | howpublished )* >
+
+<!ATTLIST misc key ID #REQUIRED >
+
+<!ELEMENT journal ( #PCDATA ) >
+
+<!ELEMENT line ( #PCDATA ) >
+<!ATTLIST line url CDATA #IMPLIED >
+
+<!ELEMENT link ( #PCDATA ) >
+<!ATTLIST link lang ( ca | en ) #REQUIRED >
+<!ATTLIST link url CDATA #REQUIRED >
+
+<!ELEMENT name ( #PCDATA ) >
+
+<!ELEMENT note ( #PCDATA | noteurl )* >
+
+<!ELEMENT noteurl ( #PCDATA ) >
+
+<!ELEMENT number ( #PCDATA ) >
+
+<!ELEMENT officehours ( validity, segment* ) >
+
+<!ELEMENT pages ( #PCDATA ) >
+
+<!ELEMENT pdf-available EMPTY >
+
+<!ELEMENT pdfslides-available EMPTY >
+
+<!ELEMENT phone ( #PCDATA ) >
+
+<!ELEMENT picture ( #PCDATA ) >
+
+<!ELEMENT postaladdress ( line+ ) >
+
+<!ELEMENT ps-available EMPTY >
+
+<!ELEMENT publications ( article | inbook | inproceedings | misc )* >
+
+<!ELEMENT publisher ( #PCDATA ) >
+
+<!ELEMENT segment ( dayofweek, hour ) >
+
+<!ELEMENT series ( #PCDATA ) >
+
+<!ELEMENT subject ( name, englishname, degree, englishdegree, url? ) >
+
+<!ELEMENT teaching ( academicyear, subject+ ) >
+
+<!ELEMENT title ( #PCDATA ) >
+
+<!ELEMENT url ( #PCDATA ) >
+
+<!ELEMENT validity ( #PCDATA ) >
+
+<!ELEMENT volume ( #PCDATA ) >
+
+<!ELEMENT webpage ( publications, contactinfo, officehours, teaching, extra-links ) >
+
+<!ELEMENT year ( #PCDATA ) >
+
+
+]>
+<webpage>
+<publications>
+
+<inproceedings key="forcada17p">
+<author>Forcada, M.L., Esplà-Gomis, M., Sánchez-Martínez, F., Specia, L.</author>
+<title>One-parameter models for sentence-level post-editing effort estimation</title>
+<pages>132-143</pages>
+<year>2017</year>
+<booktitle>Proceedings of MT Summit XVI, vol.1: Research Track</booktitle>
+<note>Nagoya, Sep. 18-22, 2017</note>
+<pdf-available/>
+</inproceedings>
+
+
+<inproceedings key="jordan17p">
+<author>Jordan-Núñez, K., Forcada, M.L., Clua, E.</author>
+<title>Usefulness of MT output for comprehension -
+ an analysis from the point of view of
+linguistic intercomprehension</title>
+<pages>241-253</pages>
+<year>2017</year>
+<booktitle>Proceedings of MT Summit XVI, vol.1: Research Track</booktitle>
+<note>Nagoya, Sep. 18-22, 2017</note>
+<pdf-available/>
+</inproceedings>
+
+    <inproceedings key="ortega16p">
+      <author>Ortega, J.E., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>Fuzzy-match repair using black-box machine translation systems: what can be expected?</title>
+      <booktitle>Proceedings of AMTA 2016, vol. 1: MT Researchers' track</booktitle>
+      <pages>27-39</pages>
+      <note>Austin, Oct. 28 - Nov. 1, 2016.</note>
+      <year>2016</year>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="torregrosa16p">
+      <author>Torregrosa, D., Pérez-Ortiz, J.A., Forcada, M.L.</author>
+      <title>Ranking suggestions for black-box interactive
+translation prediction systems with multilayer
+perceptrons</title>
+      <booktitle>Proceedings of AMTA 2016, vol. 1: MT Researchers' track</booktitle>
+      <pages>65-78</pages>
+      <note>Austin, Oct. 28 - Nov. 1, 2016.</note>
+      <year>2016</year>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="torregrosa16p2">
+      <author>Torregrosa, D., Pérez-Ortiz, J.A., Forcada, M.L.</author>
+      <title>Comparison of two different interactive translation
+prediction approaches integrated in a
+computer-assisted translation workbench</title>
+      <booktitle>AMTA 2016 Workshop on Interacting with Machine Translation (iMT 2016)</booktitle>
+      <pages>-</pages>
+      <note>Austin, Oct. 28, 2016.</note>
+      <year>2016</year>
+      <pdf-available/>
+    </inproceedings>
+  
+    <inproceedings key="espla16p2">
+      <author>Esplà-Gomis, M., Forcada, M.L., Ortiz-Rojas, S., Ferrández-Tordera, J.</author>
+      <title>Bitextor's participation in WMT'16: shared task on document alignment</title>
+      <booktitle>ACL 2016: First Conference on Machine Translation (WMT16)</booktitle>
+      <pages>685-691</pages>
+      <note>Berlin, Germany, August 11 and 12, 2016</note>
+      <year>2016</year>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="espla16p3">
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>UAlacant word-level and phrase-level machine translation quality estimation systems at WMT 2016</title>
+      <booktitle>ACL 2016: First Conference on Machine Translation (WMT16)</booktitle>
+      <pages>728-786</pages>
+      <note>Berlin, Germany, August 11 and 12, 2016</note>
+      <year>2016</year>
+      <pdf-available/>
+    </inproceedings>
+
+    <article key="forcada17j">
+      <author>Forcada, M.L., Sánchez-Martínez, F., Esplà-Gomis, M., Specia, L.</author>
+      <title>Towards Optimizing MT for Post-Editing Effort: Can BLEU Still Be Useful?</title>
+      <journal>Prague Bulletin of Mathematical Linguistics</journal>
+      <year>2017</year>
+      <volume>108</volume>
+      <pages>183-195</pages>
+      <pdf-available/>
+    </article>
+      
+    <article key="torregrosa17j">
+      <author>Torregrosa, D., Pérez-Ortiz, J.A., Forcada, M.L.</author>
+      <title>Comparative Human and Automatic Evaluation of Glass-Box
+and Black-Box Approaches to Interactive Translation Prediction</title>
+      <journal>Prague Bulletin of Mathematical Linguistics</journal>
+      <year>2017</year>
+      <volume>108</volume>
+      <pages>97-108</pages>
+      <pdf-available/>
+    </article>
+
+
+    
+
+    <article key="espla16j">
+      <author>Esplà-Gomis, M., Carrasco, R.C., Sánchez-Cartagena, V.M., Forcada, M.L., Sánchez-Martínez, F., Pérez-Ortiz, J.A.</author>
+      <title>Assisting non-expert speakers of under-resourced languages in assigning stems and inflectional paradigms to new word entries of morphological dictionaries</title>
+      <journal>Language Resources and Evaluation</journal>
+      <year>2016</year>
+      <volume>50</volume>
+      <pages></pages>
+      <note>https://doi.org/10.1007/s10579-016-9360-9</note>
+      <pdf-available/>
+    </article>
+
+    <article key="forcada16j">
+      <author>Forcada, M.L., Esplà-Gomis, M., Pérez-Ortiz, J.A.</author>
+      <title>Stand-off Annotation of Web Content as a Legally
+Safer Alternative to Crawling for Distribution</title>
+      <journal>Baltic Journal of Modern Computing</journal>
+      <year>2016</year>
+      <volume>4</volume>
+      <number>2</number>
+      <pages>152-164</pages>
+      <note>(proceedings of the 19th Annual Conference of the European Association for Machine Translation, Riga, Latvia, May 30 - June 1, 2016)</note>
+      <pdf-available/> 
+    </article>
+
+  
+    <misc key="chen15m">
+      <author>Chen, G., Forcada M.L.</author>
+      <title>A Light Sliding-Window Part-of-Speech Tagger for the Apertium Free/Open-Source Machine Translation Platform</title>
+      <howpublished>http://arxiv.org/abs/1509.05517</howpublished>
+      <year>2015</year>
+      <pdf-available/>
+    </misc>
+
+    <misc key="espla12m">
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>Using external sources of bilingual information for on-the-fly
+word alignment</title>
+      <howpublished>http://arxiv.org/abs/1212.1192</howpublished>
+      <year>2012</year>
+      <pdf-available/>
+    </misc>
+
+
+    <inproceedings key="espla15p2">
+
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>UAlacant word-level machine translation quality estimation system at
+WMT 2015</title>
+      <booktitle>EMNLP 2015. Tenth Workshop on Statistical Machine Translation. Proceedings of the Workshop </booktitle>
+      <pages>309-315</pages>
+      <note>Lisbon, Portugal, September 17 and 18, 2015</note>
+      <year>2015</year>
+      <pdf-available/>
+    </inproceedings>
+
+
+
+    <article key="toral15p">
+      <journal>Procesamiento del Lenguaje Natural</journal>
+      <volume>55</volume>
+      <year>2015</year>
+      <pages>185-188</pages>
+      <author>Toral, A., Pirinen, T., Way, A., Rubino, R., Ramírez-Sánchez, G.,  Ortiz-Rojas, S., Sánchez-Cartagena, V.M., Ferrández-Tordera, J., Forcada, M.L., Esplà-Gomis, M., Ljubesic, N., Klubicka, F., Prokopidis, P., Papavassiliou, V. </author>
+      <title>Automatic Acquisition of Machine Translation Resources in the
+Abu-MaTran Project</title>
+      <pdf-available/>
+    </article>
+
+    <article key="espla15j">
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>Using Machine Translation to Provide Target-Language Edit Hints in Computer Aided Translation Based on Translation Memories</title>
+      <journal>Journal of Artificial Intelligence Research</journal>
+      <year>2015</year>
+      <volume>53</volume>
+      <pages>169-222</pages>
+      <pdf-available/>
+    </article>
+
+
+    <inproceedings key="espla15p">
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>Using on-line available sources of bilingual information for word-level machine translation quality estimation</title>
+      <year>2015</year>
+      <booktitle>Proceedings of EAMT 2015, The Eigtheenth Annual Conference of the European Association for Machine Translation</booktitle>
+     <pages>19-26</pages> 
+      <note>Antalya, May 11-13, 2015</note>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="forcada15p">
+      <author>Forcada, M.L., Sánchez-Martínez, F.</author>
+      <title>A general framework for minimizing translation effort:
+towards a principled combination of translation technologies in
+computer-aided translation</title>
+      <year>2015</year>
+      <booktitle>Proceedings of EAMT 2015, The Eigtheenth Annual Conference of the European Association for Machine Translation</booktitle>
+     <pages>27-34</pages> 
+      <note>Antalya, May 11-13, 2015</note>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="ageeva15p">
+      <author>Ageeva, E., Forcada, M.L., Tyers, F.M., Pérez-Ortiz, J.A. </author>
+      <title>Evaluating machine translation for assimilation via a gap-filling task</title>
+      <year>2015</year>
+      <booktitle>Proceedings of EAMT 2015, The Eigtheenth Annual Conference of the European Association for Machine Translation</booktitle>
+     <pages>137-144</pages> 
+      <note>Antalya, May 11-13, 2015</note>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="tyers15p">
+      <author>Tyers, F.M., Sánchez-Martínez, F., Forcada, M.L. </author>
+      <title>Unsupervised training of maximum-entropy models for lexical selection in
+rule-based machine translation</title>
+      <year>2015</year>
+      <booktitle>Proceedings of EAMT 2015, The Eigtheenth Annual Conference of the European Association for Machine Translation</booktitle>
+     <pages>145-152</pages> 
+      <note>Antalya, May 11-13, 2015</note>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="ortega14p">
+      <author>Ortega, J.E., Forcada, M.L., Sánchez-Martínez, F.</author>
+      <title>Using any machine translation source for
+fuzzy-match repair in a computer-aided translation
+setting</title>
+      <booktitle>Proceedings of the
+11th Conference of the Association for 
+Machine Translation in the Americas,
+Vol. 1: MT Researchers Track</booktitle>
+      <year>2014</year>
+      <editors>Yaser al Onaizan, Michel Simard</editors>
+      <note>Vancouver, BC, Canada, Oct. 22-26, 2014</note>
+     <pages>42-53</pages>
+      <pdf-available/>
+    </inproceedings>
+
+
+    <article key="torregrosa14j">
+      <author>Daniel Torregrosa, Mikel L. Forcada, Juan Antonio Pérez-Ortiz</author>
+      <title>An open-source web-based tool
+for resource-agnostic interactive translation prediction</title>
+      <journal>The Prague Bulletin of Mathematical Linguistics</journal>
+      <volume>102</volume>
+      <year>2014</year>
+      <pages>69-80</pages>
+      <pdf-available/>
+    </article>
+
+<article key="forcada13p">
+<title>
+Peeking through the language barrier: the development of a free/open-source gisting system for Basque to English based on apertium.org
+</title>
+<author>J. O'Regan, M.L. Forcada</author>
+<journal>Procesamiento del Lenguaje Natural</journal>
+<note>XXIX Congreso de la Sociedad Española de Procesamiento del
+Lenguaje Natural, Madrid, Spain, 16-18.09.2013</note>
+<volume>51</volume>
+<pages>15-22</pages>
+<year>2013</year>
+<pdf-available/>
+<pdfslides-available/>
+</article>
+
+
+<inbook key="forcada12lfm">
+<author>Mikel L. Forcada
+</author>
+<title>Traducció automàtica de codi obert: Apertium, una oportunitat per a les
+llengües menors</title>
+<booktitle>Les fronteres del multilingüisme: una visió actual i pluridisciplinar sobre el multilingüisme en la societat contemporània</booktitle>
+<publisher>Editorial UOC</publisher>
+<editor>Bos i Solé, A.</editor>
+<pages>57-80</pages>
+<year>2012</year>
+</inbook>
+
+
+
+    <article key="espla12j">
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>A Simple Approach to Use Bilingual Information Sources for Word Alignment</title>
+      <journal>Procesamiento del Lenguaje Natural</journal>
+      <volume>49</volume>
+      <pages>93-100</pages>
+      <year>2012</year>
+      <pdf-available/>
+    </article>
+
+    <inbook key="forcada10mtt">
+      <title>Machine Translation Today</title>
+      <author>Mikel L. Forcada</author>
+      <booktitle>Handbook of Translation Studies</booktitle>
+      <volume>1</volume>
+      <pages>215-223</pages>
+      <year>2010</year>
+      <editors>Yves Gambier, Luc Van Doorslaer</editors>
+    </inbook>
+
+    <inbook key="forcada11fgc">
+      <title>Traducció automàtica</title>
+      <author>Mikel L. Forcada</author>
+      <booktitle>La lingüística i les seues aplicacions en la societat</booktitle>
+      <pages>115-132</pages>
+      <year>2011</year>
+      <editors>Colón Doménech, G., Gimeno Betí, L.</editors>
+    </inbook>
+
+
+    <inproceedings key="sundetova13p">
+      <author>Sundetova, A., Forcada, M.L., Shormakova, A., Aitkulova, A.</author>
+      <title>Structural transfer rules for English-Kazakh machine translation inthe free/open-source platform Apertium</title>
+      <year>2013</year>
+      <booktitle>Proceedings of the I International Conference on Computer Procfessing of Turkic Languages (TurkLang-2013)</booktitle>
+<!--      <pages></pages> -->
+      <pages>322-331</pages>
+      <note>Astana, 3-4 oct. 2013</note>
+      <pdf-available/>
+    </inproceedings>
+
+
+    <inproceedings key="torregrosa14p">
+      <author>Juan Antonio Pérez-Ortiz, Daniel Torregrosa and Mikel Forcada</author>
+      <title>Black-box integration of heterogeneous bilingual resources into an interactive translation system</title>
+      <year>2014</year>
+      <booktitle>EACL 2014 Workshop on Humans and Computer-assisted Translation</booktitle>
+<!--      <pages></pages> -->
+      <note>Gothenburg, April 26, 2014</note>
+      <pdf-available/>
+    </inproceedings>
+
+<!--
+Miquel Esplà-Gomis, Víctor M. Sánchez-Cartagena, Juan A. Pérez-Ortiz, Felipe
+Sánchez-Martínez, Mikel L. Forcada and Rafael C. Carrasco: An efficient method to assist
+non-expert users in extending dictionaries by assigning stems and inflectional paradigms
+to unknown words 
+
+-->
+    <inproceedings key="esplagomis14p">
+      <author>Esplà-Gomis, M., Sánchez-Cartagena, V.M., Pérez-Ortiz, J.A., Sánchez-Martínez, F., Forcada, M.L., Carrasco, R.C.</author>
+      <title>An efficient method to assist non-expert users in
+      extending dictionaries by assigning stems and inflectional
+      paradigms to unknown words</title>
+      <year>2014</year>
+      <booktitle>Proceedings of EAMT 2014, The Seventeenth Annual Conference of the European Association for Machine Translation</booktitle>
+     <pages>19-26</pages> 
+      <note>Dubrovnik, June 16-18, 2014</note>
+      <pdf-available/>
+    </inproceedings>
+
+
+
+    <inproceedings key="forcada14p">
+      <author>Mikel L. Forcada</author>
+      <title>On the Annotation of TMX Translation Memories for Advanced Leveraging in Computer-aided Translation</title>
+      <year>2014</year>
+      <booktitle>Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)</booktitle>
+      <pages>4374-4378</pages> 
+      <note>Reykjavík, May 26-31, 2014. Revised version.</note>
+      <pdf-available/>
+      <pdfslides-available/>
+    </inproceedings>
+
+    <inproceedings key="espla-gomis12a">
+      <author>Miquel Esplà-Gomis, Felipe Sánchez-Martínez, Mikel L. Forcada</author>
+      <title>UAlacant: Using online machine translation for cross-lingual textual entailment</title>
+      <year>2012</year>
+      <booktitle>Proceedings of the 6th International Workshop on Semantic Evaluation (SemEval 2012)</booktitle>
+      <pages>472-476</pages>
+      <note>June 7-8, Montreal, Canada</note>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="tyers12a">
+      <author>Francis M. Tyers, Felipe Sánchez-Martínez, Mikel L. Forcada</author>
+      <title>Flexible finite-state lexical selection for rule-based machine translation</title>
+      <year>2012</year>
+      <booktitle>Proceedings of the 16th Annual Conference of the European Associtation for Machine Translation</booktitle>
+      <pages>213-220</pages>
+      <note>May 28-30, 2012, Trento, Italy</note>
+	<pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="espla-gomis11b">
+      <author>Miquel Esplà-Gomis, Felipe Sánchez-Martínez, Mikel L Forcada</author>
+      <title>Using machine translation in computer-aided translation to suggest the target-side words to change</title>
+      <booktitle>Proceedings of the 13th Machine Translation Summit</booktitle>
+      <pages>172-179</pages>
+      <year>2011</year>
+      <note>September 19-23, 2011, Xiamen, China</note>
+    </inproceedings>
+
+    <article key="sanchezmartinez11a">
+      <author>Felipe Sánchez-Martínez, Mikel L. Forcada</author>
+      <title>Free/open-source machine translation: Preface</title>
+      <journal>Machine Translation</journal>
+      <note>Special Issue on Free/Open-Source Machine Translation</note>
+      <volume>25</volume>
+      <number>2</number>
+      <pages>83-86</pages>
+      <year>2011</year>
+    </article>
+
+    <article key="forcada11apertium">
+      <author>Mikel L. Forcada, Mireia Ginestí-Rosell, Jacob Nordfalk, Jim O'Regan, Sergio Ortiz-Rojas, Juan Antonio Pérez-Ortiz, Felipe Sánchez-Martínez, Gema Ramírez-Sánchez, Francis M. Tyers</author>
+      <title>Apertium: a free/open-source platform for rule-based machine translation</title>
+      <journal>Machine Translation</journal>
+      <note>Special Issue on Free/Open-Source Machine Translation</note>
+      <volume>25</volume>
+      <number>2</number>
+      <pages>127-144</pages>
+      <year>2011</year>
+    </article>
+
+    <inproceedings key="dandapat10p">
+      <author>Sandipan Dandapat, Mikel L. Forcada, Declan Groves,
+      Sergio Penkale, John Tinsley, Andy Way</author> 
+      <title>
+      OpenMaTrEx: A Free/Open-Source Marker-Driven Example-Based
+      Machine Translation System</title>
+      <year>2010</year>
+      <booktitle>Proceedings of IceTAL 2010</booktitle>
+      <note>Reykjavík, 16-18 Aug. 2010</note>
+	<pages>121-126</pages>
+	<editor>Hrafn Loftsson, Eiríkur Rögnvaldsson, Sigrún Helgadóttir</editor>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="dcu-wmt2010">
+      <author>Sergio Penkale, Rejwanul Haque, Sandipan Dandapat,
+Pratyush Banerjee, Ankit K. Srivastava, Jinhua Du, Pavel Pecina, Sudip
+Kumar Naskar, Mikel L. Forcada, Andy Way</author>
+      <title>Matrex: the DCU MT system for WMT 2010</title>
+      <booktitle>Proceedings of WMT 2010: The ACL 2010 Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR</booktitle>
+      <note>to be presented</note>
+      <year>2010</year>
+      <pdf-available/>
+    </inproceedings>
+
+    <article key="tyers10j">
+      <author>Francis M. Tyers, Felipe Sánchez-Martínez, Sergio Ortiz Rojas, Mikel L. Forcada</author>
+      <title>Free/open-source resources in the Apertium platform for machine translation research and development</title>
+      <journal>The Prague Bulletin of Mathemathical Lingustics</journal>
+      <year>2010</year>
+      <volume>93</volume>
+      <pages>67-76</pages>
+      <note>Special Issue: Open Source Tools for Machine Translation (Fourth MT Marathon, Dublin 25-30.01.2010)</note>
+      <pdf-available/>
+    </article>
+
+    <article key="esplagomis10j">
+      <author>Miquel Esplà-Gomis, Mikel L. Forcada</author>
+      <title>Combining Content-Based and URL-Based Heuristics to Harvest Aligned Bitexts from Multilingual Sites with Bitextor</title>
+      <journal>The Prague Bulletin of Mathemathical Lingustics</journal>
+      <year>2010</year>
+      <volume>93</volume>
+      <pages>77-86</pages>
+      <note>Special Issue: Open Source Tools for Machine Translation (Fourth MT Marathon, Dublin 25-30.01.2010)</note>
+      <pdf-available/>
+    </article>
+
+    <inproceedings key="forcada09p">
+      <author> Mikel L. Forcada, Francis M. Tyers, Gema
+      Ramírez-Sánchez</author>
+      <title>The Apertium machine translation platform: five years on</title>
+      <booktitle>Proceedings of
+the First International Workshop on Free/Open-Source Rule-Based
+Machine Translation</booktitle>
+      <year>2009</year>
+      <pages>3-10</pages>
+      <note>Alacant, 02-03.11.2009</note>
+      <editors>Juan Antonio Pérez-Ortiz, Felipe Sánchez-Martínez,
+Francis M. Tyers</editors>
+      <pdf-available/>
+    </inproceedings>
+
+
+
+    <inproceedings key="forcada09p2">
+      <author>Felipe Sánchez-Martínez, Mikel L. Forcada, Andy Way</author>
+      <title> Hybrid rule-based - example-based MT: feeding Apertium with sub-sentential translation units</title>
+      <booktitle>Proceedings of the 3rd International Workshop on Example-Based Machine Translation</booktitle>
+      <note>Dublin, 12-13.11.2009</note>
+      <editors>Mikel L. Forcada, Andy Way</editors>
+      <pages>11-18</pages>
+      <year>2009</year>
+      <pdf-available/>
+      <pdfslides-available/>
+    </inproceedings>
+
+    <article key="forcada09j">
+      <author>Mikel L. Forcada</author>
+      <title>Apertium: traducció automàtica de codi obert per a les llengües romàniques</title>
+      <journal>Linguamática</journal>
+      <year>2009</year>
+      <number>1</number>
+      <pages>13-23</pages>
+      <pdf-available/>
+    </article>
+
+    <article key="ginesti09j">
+      <author>Mireia Ginestí Rosell, Mikel L. Forcada</author>
+      <title>La traducció automàtica en la pràctica: aplicacions, dificultats i estratègies de desenvolupament</title>
+      <journal>Caplletra</journal>
+      <year>2009</year>
+      <number>46</number>
+      <pages>43-60</pages>
+      <pdf-available/>
+    </article>
+
+
+
+    <article key="sanchez09j">
+      <author>Felipe Sánchez-Martínez, Mikel L. Forcada</author>
+      <title>Inferring Shallow-Transfer Machine Translation Rules from Small Parallel Corpora</title>
+      <journal>Journal of Artificial Intelligence Research</journal>
+      <year>2009</year>
+      <volume>34</volume>
+      <pages>605-635</pages>
+      <pdf-available/>
+    </article>
+
+    <inproceedings key="espla09p">
+      <author>Esplà-Gomis, M., Forcada, M.L.</author>
+      <title>Bitextor, a free/open-source software to harvest translation memories from multilingual websites</title>
+      <booktitle>Proceedings of the workshop {B}eyond {T}ranslation {M}emories: New Tools for Translators (at Machine Translation Summit XIII, Ottawa, Canada)</booktitle>
+      <note>August 26-30, 2009</note>
+      <year>2009</year>
+      <pdf-available/>
+    </inproceedings>
+
+    
+    <inproceedings key="caseli08p2">
+      <title>On the automatic learning of bilingual resources: some relevant factors for machine translation</title>
+      <author>Helena M. Caseli, Maria das Graças Volpe Nunes, Mikel L. Forcada</author>
+      <booktitle>Lecture notes in Artificial Intelligence 5249: Proceedings
+      of SBIA 2008</booktitle>
+      <editors>G. Zaverucha and A. Loureiro da Costa</editors>
+      <year>2008</year>
+      <pages>258-267</pages>
+      <pdf-available/>
+    </inproceedings>
+
+
+    <article key="armentanoooller08j">
+      <author>C. Armentano-Oller, M.L. Forcada</author>
+      <title>Reutilización de datos lingüísticos para la creación de un sistema de traducción automática para un nuevo par de lenguas</title>
+      <journal>Procesamiento del Lenguaje Natural</journal>
+      <number>41</number>
+      <pages>243-250</pages>
+      <year>2008</year>
+      <pdf-available/>
+    </article>
+
+
+    <article key="forcada08j">
+      <author>Mikel L. Forcada</author>
+      <title>Katalanaren itzulpen automatikoa</title>
+      <journal>Bat: Soziolinguistika Aldizkaria</journal>
+      <note>Teknologi Berriak eta Euskara</note>
+      <volume>66</volume>
+      <number>1</number>
+      <pages>167-171</pages>
+      <year>2008</year>
+     <pdf-available/>
+    </article>
+
+
+    <article key="caseli08j">
+      <author>Helena M. Caseli, Maria das Graças V. Nunes, Mikel L. Forcada</author>
+      <title>Automatic induction of bilingual resources from aligned parallel corpora: application to shallow-transfer machine translation</title>
+      <journal>Machine Translation</journal>
+      <year>2008</year>
+      <volume>20</volume>
+      <number>4</number>
+      <pages>227--245</pages>
+      <note>(cover year 2006)</note>
+<!--      <pdf-available/> -->
+    </article>
+
+    <article key="carrasco08j">
+      <author>Rafael C. Carrasco, Jan Daciuk, Mikel L. Forcada</author>
+     <title>Incremental Construction of Minimal Tree Automata</title>
+      <journal>Algorithmica</journal>
+      <year>2008</year>
+      <note>to appear</note>
+<!--      <pdf-available/> -->
+    </article>
+
+    <inproceedings key="caseli08p">
+      <year>2008</year>
+      <author>Helena M. Caseli, Maria das Graças V. Nunes, Mikel L. Forcada</author>
+      <title>From free shallow monolingual resources to machine translation systems: easing the task</title>
+      <booktitle>Mixing Approaches To Machine Translation, MATMT2008, proceedings (Donostia, Spain, Feb. 14, 2008)</booktitle>
+      <pages>41-48</pages>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="sastre07p">
+      <title>Efficient parsing using recursive transition networks with output</title>
+      <author>Javier M. Sastre, Mikel L. Forcada</author>
+      <booktitle>Proceedings of the 3rd Language &amp; Technology Conference:
+Human Language Technologies as a Challenge for Computer Science and Linguistics (Poznan, Pol., 05-07.10.2007)</booktitle>
+      <pdf-available/> 
+      <year>2007</year>
+    </inproceedings>
+
+    <inproceedings key="sanchezmartinez07p2">
+      <author>Felipe Sánchez-Martínez, Mikel L. Forcada</author>
+      <title>Automatic induction of shallow-transfer rules for open-source machine translation</title>
+      <booktitle>Proceedings of TMI, The Eleventh Conference on Theoretical and Methodological Issues in Machine Translation (TMI 2007)</booktitle>  
+      <note>Skövde, Sweden, 7-9/09/2007</note>
+      <pages>181-190</pages>
+      <year>2007</year>
+      <pdf-available/>
+    </inproceedings>
+
+    <article key="sanchezmartinez07j">
+      <author>Felipe Sánchez-Martínez, Carme Armentano-Oller, Juan Antonio Pérez-Ortiz, Mikel L. Forcada</author>
+      <title>Training part-of-speech taggers to build machine translation systems for less-resourced language pairs</title>
+      <journal>Procesamiento del Lenguaje Natural</journal>
+      <volume>39</volume>
+      <pages>257-264</pages>
+      <note>XXIII Congreso de la Sociedad Española de Procesamiento del Lenguaje Natural ,Sevilla, Spain, 10-12/09/2007; accepted</note>
+      <year>2007</year>
+      <pdf-available/>
+    </article>
+
+<inproceedings key="carrasco07p">
+      <author>Rafael C. Carrasco, Jan Daciuk, Mikel L. Forcada</author>
+      <title>An implementation of deterministic tree automata minimization</title>
+      <booktitle>Lecture Notes in Computer Science vol. 4783: Implementation and Application of Automata: Proc. of the 12th International Conference on Implementation and Application of Automata</booktitle>
+      <note>Prague, 16-17.07.2007</note>
+      <pages>122-129</pages>
+      <year>2007</year>
+      <pdf-available/>
+</inproceedings>
+
+<inproceedings key="sanchezmartinez07p">
+<author>Felipe Sánchez-Martínez, Juan Antonio Pérez-Ortiz, Mikel L. Forcada</author>
+<title>Integrating corpus-based and rule-based approaches in an open-source machine translation system.</title>
+<booktitle>Proceedings of METIS-II Workshop: New Approaches to Machine Translation, a workshop at CLIN 17 - Computational Linguistics in the Netherlands</booktitle>
+<note>(Leuven, Belgium, 11/01/2007)</note>
+<pages>73-82</pages>
+<year>2007</year>
+<pdf-available/>
+<pdfslides-available/>
+</inproceedings>
+
+
+    <inproceedings key="forcada03p">
+      <title>A 45-hour computers in translation course</title>
+      <author>Mikel L. Forcada</author>
+      <booktitle>Proceedings of the Workshop on Teaching Translation Technologies and Tools at Machine Translation Summit IX (New Orleans, 23-27.09.2003</booktitle>
+      <year>2003</year>
+      <pdf-available/>
+      <pdfslides-available/>
+    </inproceedings>
+    
+<inproceedings key="armentano07p">
+<author>Carme Armentano-Oller, Antonio M. Corbí-Bellot, Mikel L. Forcada, Mireia Ginestí-Rosell, Marco A. Montava, Sergio Ortiz-Rojas, Juan Antonio Pérez-Ortiz, Gema Ramírez-Sánchez, Felipe Sánchez-Martínez.</author>
+<title>Apertium, una plataforma de código abierto para el desarrollo de sistemas de traducción automática</title>
+<booktitle>Proceedings of FLOSS (Free/Libre/Open Source Systems) International Conference</booktitle>
+<pages>5-20</pages>
+<year>2007</year>
+<note>(7-9/03/2007, Jerez de la Frontera, Spain)</note>
+<pdf-available/>
+</inproceedings>
+
+    <inproceedings key="armentano06p2">
+      <author>Carme Armentano-Oller, Mikel L. Forcada</author>
+      <title>Open-source machine translation between small languages: Catalan and Aranese Occitan</title>
+      <booktitle>Strategies for developing machine translation for minority languages (5th SALTMIL workshop on Minority Languages)</booktitle>
+      <note>organized in conjunction with LREC 2006 (22-28.05.2006)</note>
+      <pages>51-54</pages>
+      <year>2006</year>
+      <pdf-available/>
+    </inproceedings>
+
+    <inproceedings key="ramirezsanchez06p">
+      <author>Gema Ramírez-Sánchez, Felipe Sánchez-Martínez, Sergio Ortiz-Rojas, Juan Antonio Pérez-Ortiz, Mikel L. Forcada</author>
+      <title>Opentrad Apertium open-source machine translation system: an opportunity for business and research</title>
+      <booktitle>Proceedings of Translating and the Computer 28 Conference</booktitle>
+      <note>(London, november 16--17, 2006)</note>
+      <year>2006</year>
+      <pdf-available/>
+    </inproceedings>
+
+<inproceedings key="sanchezmartinez06p">
+<author>Felipe Sánchez-Martínez, Juan Antonio Pérez-Ortiz, Mikel L. Forcada</author>
+<title>Speeding up target-language driven part-of-speech tagger training for
+machine translation</title>
+<booktitle>Lecture notes in Computer Science vol. 4293: MICAI 2006: Advances in Artificial Intelligence.5th Mexican International Conference on Artificial Intelligence, Apizaco, Mexico, November 13-17, 2006. Proceedings. </booktitle>
+<year>2006</year>
+      <pages>844-854</pages>
+<note>(c) Springer-Verlag 2006</note>
+      <pdf-available/>
+</inproceedings>
+
+
+
+<inproceedings key="armentano06p">
+<author>Carme Armentano-Oller, Rafael C. Carrasco, Antonio
+M. Corbí-Bellot, Mikel L. Forcada, Mireia Ginestí-Rosell, Sergio
+Ortiz-Rojas, Juan Antonio Pérez-Ortiz, Gema Ramírez-Sánchez, Felipe
+Sánchez-Martínez, Miriam A. Scalco</author> <title>Open-source
+Portuguese-Spanish machine translation</title> <booktitle>In Lecture
+Notes in Computer Science 3960 (Computational Processing of the
+Portuguese Language, Proceedings of the 7th International Workshop on
+Computational Processing of Written and Spoken Portuguese, PROPOR
+2006), May 13-17, 2006, ME - RJ / Itatiaia, Rio de Janeiro,
+Brazil.</booktitle> <year>2006</year> 
+<pages>50-59</pages>
+<note>(c) Springer-Verlag 2006</note>
+<pdf-available/>
+<pdfslides-available/>
+</inproceedings>
+
+
+
+<inproceedings key="sanchezvillamil06p">
+<author>Enrique Sánchez Villamil, Susana Santos-Antón, Sergio Ortiz-Rojas
+and Mikel L. Forcada</author>
+<title>Evaluation of alignment methods for HTML parallel text</title>
+<booktitle>Lecture Notes in Computer Science 4139 (Advances in Natural
+Language Processing, Proceedings of FinTAL 2006, 5th International
+Conference on Natural Language Processing), August 23-25, 2006,
+Turku, Finland</booktitle>
+<note>(c) Springer Verlag 2006</note>
+<pages>280-290</pages>
+<year>2006</year>
+<pdf-available/>
+<pdfslides-available/>
+</inproceedings>
+
+<inproceedings key="forcada06p2">
+<author>Mikel L. Forcada</author>
+<title>Open-source machine translation: an opportunity for minor languages</title>
+<booktitle>Strategies for developing machine translation for minority languages (5th SALTMIL workshop on Minority Languages)</booktitle>
+<note>organized in conjunction with LREC 2006 (22-28.05.2006)</note>
+<year>2006</year>
+<pdf-available/>
+<pdfslides-available/>
+</inproceedings>
+
+
+<inproceedings key="sanchezvillamil05p">
+<author>Enrique Sánchez-Villamil, Mikel L. Forcada and Rafael C. Carrasco</author>
+<title>Parameter reduction in unsupervisedly trained sliding-window part-of-speech taggers</title>
+<booktitle>Proceedings of Recent Advances in Natural Language Processing (RANLP'05, Borovets, Bulgaria, 21-23.09.2005)</booktitle>
+<year>2005</year>
+<pdf-available/>
+</inproceedings>
+
+<inproceedings key="sanchezmartinez05p">
+<author>Felipe Sánchez-Martínez, Juan Antonio Pérez Ortiz, Mikel L. Forcada</author>
+<title>Target-language-driven agglomerative part-of-speech tag clustering for machine translation</title>
+<booktitle>Proceedings of Recent Advances in Natural Language Processing (RANLP'05, Borovets, Bulgaria, 21-23.09.2005)</booktitle>
+<year>2005</year>
+<pdf-available/>
+</inproceedings>
+
+<inproceedings key="alegria05p">
+<author>Iñaki Alegria, Arantza Diaz de Ilarraza, Gorka Labaka, Mikel Lersundi, Aingeru Mayor, Kepa Sarasola, Mikel L. Forcada, Sergio Ortiz-Rojas, Lluís Padró</author>
+<title>An open architecture for transfer-based machine translation between Spanish and Basque</title>
+<booktitle>Proceedings of OSMaTran: Open-Source Machine Translation, A workshop at Machine Translation Summit X (Phuket, Thailand, September 12--16, 2005)</booktitle>
+<year>2005</year>
+<pdf-available/>
+</inproceedings>
+
+<inproceedings key="armentano05p">
+<author> Carme Armentano-Oller, Antonio M. Corbí-Bellot, Mikel L. Forcada, Mireia Ginestí-Rosell, Boyan Bonev, Sergio Ortiz-Rojas, Juan Antonio Pérez-Ortiz, Gema Ramírez-Sánchez, Felipe Sánchez-Martínez</author>
+<title>An open-source shallow-transfer machine translation toolbox: consequences of its release and availability</title>
+<booktitle>Proceedings of OSMaTran: Open-Source Machine Translation, A workshop at Machine Translation Summit X (Phuket, Thailand, September 12--16, 2005)</booktitle>
+<year>2005</year>
+<pdf-available/>
+</inproceedings>
+
+<inproceedings key="caseli05p1">
+<author>Helena de Medeiros Caseli, Maria das Graças Volpe Nunes, Mikel L. Forcada</author>
+<title>Evaluating the LIHLA lexical aligner on Spanish, Brazilian Portuguese and Basque parallel texts</title>
+<booktitle>Proceedings of the XXI Congreso de la Sociedad Española
+para el Procesamiento del Lenguaje Natural (SEPLN) (Granada, Spain,
+September 2005)</booktitle>
+<year>2005</year>
+<pdf-available/>
+</inproceedings>
+
+
+<inproceedings key="caseli05p2">
+<author>Helena de Medeiros Caseli, Maria das Graças Volpe Nunes, Mikel L. Forcada</author>
+<title>LIHLA: A lexical aligner based on language-independent heuristics</title><booktitle>Proceedings of the V Encontro Nacional de Inteligência Artificial (ENIA 2005) (São Leopoldo-RS, Brazil, July 2005)</booktitle>
+<year>2005</year>
+<pages>641-650</pages>
+<pdf-available/>
+</inproceedings>
+
+<inproceedings key="caseli05p3">
+<author>Helena de Medeiros Caseli, Maria das Graças Volpe Nunes, Mikel L. Forcada</author>
+<title>LIHLA: Shared task system description</title>
+<booktitle>Proceedings of the ACL Workshop on Building and Using Parallel Texts</booktitle>
+<pages>111-114</pages>
+<year>2005</year>
+<pdf-available/>
+</inproceedings>
+
+
+<inproceedings key="sanchezmartinez04p">
+<title>Exploring the use of target-language information to train the
+	part-of-speech tagger of machine translation systems</title>
+<author>Felipe Sánchez-Martínez, Juan Antonio Pérez-Ortiz, Mikel L. Forcada</author>
+<booktitle>Proceedings of EsTAL (Alacant, October 20-22, 2004)</booktitle>
+<note>accepted for publication</note>
+<year>2004</year>
+<publisher>Springer-Verlag</publisher>
+<series>Lecture Notes in Computer Science</series>
+<volume>3230</volume>
+<pages>137--148</pages>
+<pdf-available/>
+<ps-available/> 
+</inproceedings>
+
+
+<inproceedings key="corbibellot05p">
+<author>Antonio M. Corbí-Bellot, Mikel L. Forcada, Sergio Ortiz-Rojas, Juan Antonio Pérez-Ortiz, Gema Sánchez-Ramírez, Felipe Sánchez-Martínez, Iñaki Alegria, Aingeru Mayor, Kepa Sarasola</author>
+<title>An open-source shallow-transfer machine translation engine for the
+           romance languages of Spain</title>
+<booktitle>Proceedings of the European Associtation for Machine Translation, 10th Annual
+               Conference (Budapest, Hungary, 30-31.05.2005)</booktitle>
+<year>2005</year>
+<pages>79--86</pages>
+<pdf-available/>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="sanchezmartinez04p2">
+<title>Cooperative unsupervised training of the part-of-speech taggers in a
+	bidirectional machine translation system</title>
+<author>Felipe Sánchez-Martínez, Juan Antonio Pérez-Ortiz, Mikel L. Forcada</author>
+<booktitle>Proceedings of TMI 2004 (Baltimore, October 4--6, 2004)</booktitle>
+<note>accepted for publication</note>
+<year>2004</year>
+<pages>135--144</pages>
+<pdf-available/>
+<ps-available/> 
+</inproceedings>
+
+<inproceedings key="sanchezvillamil04p">
+<title>Unsupervised training of a finite-state sliding-window part-of-speech tagger</title>
+<author>Enrique Sánchez-Villamil, Mikel L. Forcada, Rafael C. Carrasco</author>
+<booktitle>Proceedings of EsTAL (Alacant, October 20-22, 2004)</booktitle>
+<note>accepted for publication</note>
+<year>2004</year>
+<series>Lecture Notes in Computer Science / Lecture Notes in Artificial Intelligence</series>
+<volume>3230</volume>
+<pages>454-463</pages>
+<publisher>Springer-Verlag</publisher>
+<pdf-available/>
+<ps-available/>
+</inproceedings>
+
+<article key="forcada04p">
+<author>Mikel L. Forcada</author>
+<title>Book Review: Brian James Baer, Geoffrey S. Koby (eds), Beyond the Ivory Tower: Rethinking Translation Pedagogy. John Benjamins Publishing Co., Amsterdam/Philadelphia, 2003, xvi + 258 pp.</title>
+<journal>Machine Translation</journal>
+<volume>18</volume>
+<year>2004</year>
+<pages>365-372</pages>
+</article>
+
+
+<article key="forcada02j">
+<author>Mikel L. Forcada</author>
+<title>Les tecnologies de la llengua al servei del valencià: la traducció automàtica</title>
+<journal>Canelobre: Revista del Instituto alicantino de cultura «Juan Gil-Albert»</journal>
+<volume>47</volume>
+<year>2002</year>
+<pages>279-288</pages>
+</article>
+
+
+<inbook key="garrido04p">
+<title>Shallow parsing for Portuguese-Spanish Machine Translation</title>
+<author>Alícia Garrido-Alenda, Patrícia Gilabert Zarco, Juan Antonio
+	Pérez Ortiz, 	Antonio Pertusa-Ibáñez, Gema Ramírez-Sánchez, Felipe
+	Sánchez-Martínez,  Míriam A. Scalco,
+	Mikel L. Forcada</author>
+<booktitle> Language technologies for Portuguese: shallow processing tools and resources</booktitle>
+<year>2004</year>
+<pages>135-144</pages>
+<publisher>Ed. Colibrí</publisher>
+<address>Lisbon</address>
+<pdf-available/>
+<ps-available/>
+</inbook>
+
+
+<article key="gilabert03p">
+<title>Construcción rápida de un sistema de traducción automática
+	español-portugués partiendo de un sistema español-catalán</title>
+<author>Patrícia Gilabert Zarco, Javier Herrero-Vicente, Sergio Ortiz-Rojas,
+	Antonio Pertusa-Ibáñez, Gema Ramírez-Sánchez, Felipe
+	Sánchez-Martínez, Marcial Samper-Asensio, Míriam A. Scalco,
+	Mikel L. Forcada</author>
+<journal>Procesamiento del Lenguaje Natural</journal>
+<note>XIX Congreso de la Sociedad Española de Procesamiento del
+Lenguaje Natural, Alcalá de Henares, Spain, 10-12.09.2003 (aceptado
+	para su publicación)</note>
+<!-- <volume>27</volume>
+<pages>151-156</pages> -->
+<year>2003</year>
+<pdf-available/>
+<ps-available/>
+</article>
+
+
+
+<article key="garrido02j">
+<title>Comparing nondeterministic and quasideterministic finite-state
+	transducers built from morphological dictionaries</title>
+<author>A. Garrido-Alenda, M.L. Forcada</author>
+<journal>Procesamiento del Lenguaje Natural</journal>
+<note>XVIII Congreso de la Sociedad Española de Procesamiento del
+Lenguaje Natural, Valladolid, Spain, 11-13.09.2002</note>
+<!-- <volume>27</volume>
+<pages>151-156</pages> -->
+<year>2002</year>
+<pdf-available/>
+<ps-available/>
+<pdfslides-available/>
+</article>
+
+<inproceedings key="forcada01p1">
+<author>Mikel L. Forcada</author>
+<title>Explaining real MT to translators: between compositional
+	semantics and word-for-word</title>
+<booktitle>Proceedings of the 6th EAMT workshop, Teaching Machine
+	Translation (Manchester, 14-15.11.2002)</booktitle>
+<year>2002</year>
+<note>accepted for presentation</note>
+<pdf-available/>
+<ps-available/>
+</inproceedings>
+
+
+<inproceedings key="verdumas02p">
+<author>José Luis Verdú-Mas, Mikel L. Forcada, Rafael
+C. Carrasco, Jorge Calera-Rubio</author>
+<title>Tree k-grammar models for natural language modelling and parsing</title>
+<booktitle>Proceedings of the Joint IAPR International Workshops on
+	Syntactical and Structural Pattern Recognition and Statistical
+	Pattern Recognition S+SSPR'2002 (Windsor, Canada, 08.2002)</booktitle>
+<editors>T. Caelli et al.</editors>
+<publisher>Springer-Verlag</publisher>
+<series>Lecture Notes in Computer Science</series>
+<volume>2396</volume>
+<year>2002</year>
+<pages>56-63</pages>
+<pdf-available/>
+</inproceedings>
+
+<inproceedings key="garrido02p">
+<author>Alicia Garrido-Alenda, Mikel L. Forcada, Rafael
+C. Carrasco</author>
+<title>Incremental construction and maintenance of morphological
+analysers based on augmented letter transducers</title>
+<booktitle>Proceedings of TMI 2002 (Theoretical and Methodological
+Issues in Machine Translation, Keihanna/Kyoto, Japan, March
+2002)</booktitle>
+<year>2002</year>
+<pages>53-62</pages>
+<pdf-available/>
+<ps-available/>
+<pdfslides-available/>
+</inproceedings>
+
+<inproceedings key="forcada02p">
+<author>Mikel L. Forcada</author>
+<title>Using multilingual content on the web to build
+  fast finite-state direct translation systems</title>
+<booktitle>Proceedings of the 2nd ELSNET MT Roadmap Workshop at TMI 2002, Keihanna/Kyoto, Japan, March
+16 2002)</booktitle>
+<year>2002</year>
+<pdf-available/>
+<pdfslides-available/>
+</inproceedings>
+
+<article key="carrasco02j">
+<author>R.C. Carrasco, M.L. Forcada</author>
+<title>Incremental construction and maintenance of minimal
+finite-state automata</title>
+<journal>Computational Linguistics</journal>
+<year>2002</year>
+<volume>28</volume>
+<number>2</number>
+<pages>207-216</pages>
+<ps-available/>
+<pdf-available/>
+</article>
+
+<inbook key="gomezballester99b">
+<author>Eva M.P. Gómez-Ballester, Mikel L. Forcada, Luisa
+Micó</author>
+<title>A gradient-ascent method to adapt the edit-distance to a
+                    classification task</title>
+<booktitle>Pattern Recognition and Applications</booktitle>
+<series>Frontiers in Artificial Intelligence and Applications</series>
+<publisher>IOS Press</publisher>
+<volume>56</volume>
+<pages>13-18</pages>
+<year>2000</year>
+</inbook>
+
+<inproceedings key="neco97p">
+<author>R.P. Ñeco, M.L. Forcada</author>
+<title>Asynchronous translations with recurrent neural nets</title>
+<booktitle>Proceedings of ICNN'97</booktitle>
+<note>Houston, Texas, 8-12.06.1997</note>
+<year>1997</year>
+<volume>4</volume>
+<pages>2535-2540</pages>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="forcada99p2">
+<author>M.L. Forcada, A.M. Corbí-Bellot, M. Gori, M. Maggini</author>
+<title>Recurrent neural networks can learn simple, approximate regular
+languages</title>
+<booktitle>Proceedings of IJCNN'99</booktitle>
+<note>Washington, DC</note>
+<year>1999</year>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="perezortiz01p1">
+<author>J.A. Pérez-Ortiz, M.L. Forcada</author>
+<title>Part-of-speech tagging with recurrent neural networks</title>
+<booktitle>Proceedings of the International Joint Conference on Neural
+               Networks, IJCNN 2001</booktitle>
+<year>2001</year>
+<pages>1588-1592</pages>
+<note>Washington D.C., USA</note>
+<ps-available/>
+</inproceedings>
+
+<article key="perezortiz01j">
+<author>J.A. Pérez-Ortiz, J. Calera-Rubio, M.L. Forcada</author>
+<title>Online text prediction with recurrent neural networks</title>
+<journal>Neural Processing Letters</journal>
+<year>2001</year>
+<volume>14</volume>
+<number>2</number>
+<pages>127-140</pages>
+</article>
+
+<inproceedings key="perezortiz01p2">
+<author>J.A. Pérez-Ortiz, Jorge Calera-Rubio, Mikel
+L. Forcada</author>
+<title>A comparison between recurrent neural architectures
+               for real-time nonlinear prediction of speech
+	       signals</title>
+<booktitle>Proceedings of the IEEE Neural Network for Signal
+               Processing Workshop, NNSP 2001</booktitle>
+<note>North Falmouth, Massachusetts, USA</note>
+<year>2001</year>
+<ps-available/>
+</inproceedings>
+
+
+<inproceedings key="perezortiz01p3">
+<author>J.A. Pérez-Ortiz, M.L. Forcada</author>
+<title>Discovering machine translation strategies beyond
+               word-for-word translation: a laboratory
+	       assignment</title>
+<booktitle>Proceedings of the Teaching Machine Translation Workshop</booktitle>
+<note>Machine Translation Summit VIII</note>
+<pages>57-60</pages>
+<year>2001</year>
+<ps-available/>
+</inproceedings>
+
+
+<inproceedings key="perezortiz01p4">
+<author>J.A. Pérez-Ortiz, Jorge Calera-Rubio, Mikel
+L. Forcada</author>
+<title>Online symbolic-sequence prediction with discrete-time 
+               recurrent neural networks</title>
+<booktitle>Proceedings of the International Conference on Artificial
+               Neural Networks, ICANN 2001</booktitle>
+<editors>G. Dorer, H. Bischof, K. Hornik</editors>
+<publisher>Springer-Verlag</publisher>
+<series>Lecture Notes in Computer Science</series>
+<volume>2130</volume>
+<year>2001</year>
+<pages>719-724</pages>
+<ps-available/></inproceedings>
+
+
+<inproceedings key="bia01p">
+<author>Alejandro Bia, Rafael C. Carrasco, Mikel L. Forcada</author>
+<title>Identifying a reduced DTD from marked up documents</title>
+<booktitle>Proc. of the IX Spanish Symposium on Pattern Recognition
+and Image Analysis (SNRFAI-2001)</booktitle>
+<year>2001</year>
+<pages>385-390</pages>
+<ps-available/>
+</inproceedings>
+
+<inbook key="forcada01b2">
+<title>Simple stable encodings of finite-state machines in dynamic
+recurrent networks</title>
+<author>Mikel L. Forcada, Rafael C. Carrasco</author>
+<editors>John F. Kolen, Stefan C. Kremer</editors>
+<booktitle>A field guide to dynamical recurrent networks</booktitle>
+<publisher>IEEE Press</publisher>
+<pages>103-127</pages>
+<year>2001</year>
+</inbook>
+
+<inbook key="forcada01b3">
+<title>Neural nets, recurrent</title>
+<author>M.L. Forcada, Marco Gori</author>
+<editors>John G. Webster</editors>
+<booktitle>Wiley Encyclopedia of Electrical and Electronics Engineering</booktitle>
+<note>online: <noteurl>http://www.interscience.wiley.com:83/eeee/</noteurl></note>
+<year>2001</year>
+</inbook>
+
+<article key="canals01j">
+<title>El sistema de traducción automática castellano-catalán
+interNOSTRUM</title>
+<author>R. Canals-Marote, A. Esteve-Guillén, A. Garrido-Alenda,
+M.I. Guardiola-Savall, A. Iturraspe-Bellver, S. Montserrat-Buendia,
+S. Ortiz-Rojas, H. Pastor-Pina, P.M. Pérez-Antón,
+M.L. Forcada</author>
+<journal>Procesamiento del Lenguaje Natural</journal>
+<note>XVII Congreso de la Sociedad Española de Procesamiento del
+Lenguaje Natural, Jaén, Spain, 12-14.09.2001</note>
+<volume>27</volume>
+<pages>151-156</pages>
+<year>2001</year>
+<pdf-available/>
+<ps-available/>
+</article>
+
+<article key="garrido01j">
+<title>MorphTrans: un lenguaje y un compilador para especificar y
+generar  módulos de transferencia morfológica para sistemas de
+traducción automática</title>
+<author>A. Garrido-Alenda, M.L. Forcada</author>
+<journal>Procesamiento del Lenguaje Natural</journal>
+<volume>27</volume>
+<pages>157-162</pages>
+<year>2001</year>
+<note>XVII Congreso de la Sociedad Española de Procesamiento del
+Lenguaje Natural, Jaén, Spain, 12-14.09.2001</note>
+<pdf-available/>
+<ps-available/>
+</article>
+
+<article key="forcada01j">
+<title>Corpus-based stochastic finite-state predictive text entry for
+reduced keyboards: application to Catalan</title>
+<author>M.L. Forcada</author>
+<journal>Procesamiento del Lenguaje Natural</journal>
+<volume>27</volume>
+<pages>65-70</pages>
+<year>2001</year>
+<note>XVII Congreso de la Sociedad Española de Procesamiento del
+Lenguaje Natural, Jaén, Spain, 12-14.09.2001</note>
+<pdf-available/>
+<pdfslides-available/>
+</article>
+
+
+<inproceedings key="canals01p">
+<title>The Spanish-Catalan machine translation system
+interNOSTRUM</title>
+<author>R. Canals-Marote, A. Esteve-Guillén, A. Garrido-Alenda,
+M.I. Guardiola-Savall, A. Iturraspe-Bellver, S. Montserrat-Buendia,
+S. Ortiz-Rojas, H. Pastor-Pina, P.M. Pérez-Antón,
+M.L. Forcada</author>
+<editors>B. Maegaard</editors>
+<booktitle>Proceedings of MT Summit VIII: Machine Translation in the
+Information Age</booktitle>
+<note>Santiago de Compostela, Spain, 18-22.09.2001</note>
+<pages>73-76</pages>
+<year>2001</year>
+<pdf-available/>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="canals01p2">
+<title>Disseny d'un etiquetari morfosintàctic per al traductor
+automàtic interNOSTRUM</title>
+<author>R. Canals-Marote, M.L. Forcada</author>
+<booktitle>Interlingüística 12 (XVI Encuentro de la Asociación de
+Jóvenes Lingüistas)</booktitle>
+<note>Huelva, 30-31.03.2001</note>
+<pages>73-79</pages>
+<year>2001</year>
+<pdf-available/>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="gomez99p">
+<author>Eva M.P. Gómez-Ballester, Mikel L. Forcada, María Luisa
+Micó</author>
+<title>A gradient-descent method to adapt the edit distance to a
+classification task</title>
+<booktitle>Proceedings of the VIII Symposium Nacional de Reconocimiento
+de Formas y Análisis de Imágenes</booktitle>   
+<volume>1</volume>
+<pages>211-216</pages>
+<editor>M.I. Torres and A. Sanfeliu</editor>
+<year>1999</year>
+</inproceedings>
+
+<inbook key="forcada01b">
+<author>Rafael C. Carrasco, Mikel L. Forcada</author>
+<title>Finite-state computation in analog neural networks: steps towards
+biologically plausible models?</title>
+<booktitle>Emergent Computational Models Based on
+Neuroscience</booktitle>
+<editors>S. Wermter, J. Austin, D. Willshaw</editors>
+<year>2001</year>
+<series>Lecture Notes in Computer Science</series>
+<volume>2036</volume>
+<publisher>Springer-Verlag</publisher>
+<pages>482-486</pages>
+<pdf-available/>
+</inbook>
+
+<article key="carrasco00j">
+<author>Rafael C. Carrasco, Mikel L. Forcada, M. Ángeles Valdés Muñoz,
+Ramón P. Ñeco</author> 
+<title>Stable
+encoding of finite-state machines in discrete-time recurrent neural nets
+with sigmoid units</title>
+<journal>Neural Computation</journal>
+<volume>12</volume>
+<number>9</number>
+<year>2000</year>
+<pages>2129-2174</pages>
+<pdf-available/>
+</article>
+
+<inproceedings key="forcada99p">
+<author>Mikel L. Forcada, Antonio M. Corbí-Bellot, Marco Gori, Marco
+Maggini</author> 
+<title>Neural learning of approximate simple regular languages</title> 
+<booktitle>Proc. ESANN'99 </booktitle>
+<note>Bruges, Belgium, 21-24.04.1999</note>
+<pages>57-62</pages>
+<year>1999</year>
+<ps-available/>
+</inproceedings>
+
+<article key="garrido99j">
+<author>Alicia Garrido, Amaia Iturraspe, Sandra Montserrat, Hermínia
+Pastor, Mikel L. Forcada</author>
+<title>A
+compiler for morphological analysers and generators based on finite-state
+transducers</title>
+<journal>Procesamiento del
+Lenguaje Natural</journal>
+<volume>25</volume>
+<year>1999</year>
+<pages>93-98</pages>
+<pdf-available/>
+<ps-available/>
+</article>
+
+
+<inproceedings key="carrasco99p">
+<author>Rafael C. Carrasco, Jose Oncina, Mikel L. Forcada</author>
+<title>Efficient encodings of finite automata in discrete-time recurrent neural networks</title>
+<booktitle>Proceedings of ICANN'99</booktitle>
+<note>Edinburgh, Scotland, Sept. 1999</note>
+<volume>2</volume>
+<pages>673-677</pages>
+<year>1999</year>
+<pdf-available/>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="neco99p">
+<author>Ramón P. Ñeco, Mikel L. Forcada, Rafael C. Carrasco, María Ángeles Valdés Muñoz,</author>
+<title>Encoding
+of sequential translators in discrete-time recurrent neural
+networks</title>
+<booktitle>Proc. ESANN'99</booktitle> 
+<note>Bruges, Belgium, 21-24.04.1999</note>
+<pages>375-380</pages>
+<year>1999</year>
+<pdf-available/>
+<ps-available/>
+</inproceedings>
+
+<article key="carrasco01j">
+<author>Rafael C. Carrasco, Mikel L. Forcada</author>
+<title>Simple
+strategies to encode tree automata in sigmoid recursive neural
+networks</title>
+<journal>
+IEEE Transactions on Knowledge and Data Engineering</journal>
+<year>2001</year>
+<volume>13</volume>
+<number>2</number>
+<pages>148-156</pages>
+<pdf-available/>
+<ps-available/>
+</article>
+
+<inproceedings key="forcada00p2">
+<author>Mikel L. Forcada, Rafael C. Carrasco</author>
+<title>Encoding
+Nondeterministic Finite-State Tree Automata in Sigmoid Recursive Neural
+Networks</title>
+<editors>Ferri, F.J., Iñesta, J.M., Amin, A., Pudil,
+P.</editors>
+<booktitle>Advances in Pattern Recognition (Joint IAPR International Workshops
+SSPR 2000 and SPR 2000, Alicante, Spain, August/September 2000,
+Proceedings)</booktitle>
+<series>Lecture Notes in Computer Science</series>
+<volume>1876</volume>
+<pages>203-210</pages>
+<year>2000</year>
+<ps-available/>
+</inproceedings>
+
+<article key="forcada00j">
+<author>Raül Canals, Anna Esteve, Alicia Garrido, M. Isabel Guardiola,
+Amaia Iturraspe-Bellver, Sandra Montserrat, Pedro Pérez-Antón, Sergio
+Ortiz, Herminia Pastor, Mikel L. Forcada</author>
+<title>interNOSTRUM: a Spanish-Catalan Machine Translation
+System</title>
+<journal>Machine Translation Review</journal>
+<year>2000</year>
+<number>11</number>
+<pages>21-25</pages>
+<note>online: <noteurl>http://www.bcs.org.uk/siggroup/nalatran/mtreview/mtr-11/mtr-11-9.htm</noteurl></note>
+</article>
+
+<article key="mira98j">
+<author>Mario J. Mira i Giménez and Mikel L. Forcada</author>
+<title>Understanding Commercial Machine Translation Systems for
+Evaluation, Teaching, and Reverse Engineering: the Treatment of Noun
+Phrases in Power Translator Deluxe</title>
+<journal>Machine Translation Review</journal>
+<year>1998</year>
+<number>7</number>
+<pages>20-27</pages>
+<note>online: <noteurl>http://www.bcs.org.uk/siggroup/nalatran/mtreview/mtr-7/nalamt78.htm</noteurl></note>
+</article>
+
+
+<inproceedings key="carrasco95p">
+   <author>Rafael C. Carrasco, Mikel L. Forcada</author>
+   <title>Second-order recurrent neural networks can 
+   learn regular grammars from noisy strings</title>
+   <booktitle>From Natural to Artificial Neural Computation</booktitle>
+   <note>Proceedings of the International Workshop of
+                  Artificial Neural Networks</note>
+   <pages>605-610</pages>
+   <publisher>Springer-Verlag</publisher>
+   <year>1995</year>
+   <address>Berlin</address>
+   <editors>José Mira and Francisco Sandoval</editors>
+<ps-available/>
+</inproceedings>
+
+<article key="moreno96j">
+<author>F. Moreno-Seco, M.L. Forcada</author>
+<title>Learning compiler design as a research activity</title>
+<journal>Computer Science Education</journal>
+<volume>7</volume>
+<number>1</number>
+<pages>73-98</pages>
+<year>1996</year>
+<ps-available/>
+<pdf-available/>
+</article>
+
+<inproceedings key="gomezballester97p">
+<author>E. Gómez-Ballester, M.L. Forcada, M.L. Micó</author> 
+<title>An
+empirical method to improve edit-distance parameters for a nearest-neighbor-based
+classification task</title>
+<editors>M.I. Torres, A. Sanfeliu</editors>
+<booktitle>VII Simposium Nacional de Reconocimiento de Formas y Análisis de Imágenes</booktitle>
+<note>Barcelona, 21-25.04.1997</note>
+<volume>1</volume>
+<pages>211-216</pages>
+<year>1997</year>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="ortizfuentes97p">
+<title>A comparison between recurrent neural architectures for digital
+equalization</title>
+<booktitle>Proc. ICASSP'97</booktitle> 
+<note>Munich, Germany, 20-24.04.1996</note>
+<volume>4</volume>
+<pages>3281-3284</pages>
+<year>1997</year>
+<ps-available/>
+<pdf-available/>
+</inproceedings>
+
+<inproceedings key="carrasco96p">
+<author>R.C. Carrasco, M.L. Forcada, L. Santamaría</author>
+<title>Inferring stochastic regular grammars with recurrent
+                  neural networks</title>
+<booktitle>Grammatical Inference: Learning Syntax from
+                  Sentences</booktitle>
+<editors>L. Miclet and C. de la Higuera</editors>
+<note>Proceedings of the Third International Colloquium on
+                  Grammatical Inference, Montpellier, France, 25-27  September 1996</note>
+<pages>274-281</pages>
+<year>1996</year>
+<address>Berlin</address>
+<publisher>Springer-Verlag</publisher>
+<ps-available/>
+</inproceedings>
+
+<inproceedings key="neco96p">
+<author>Ramón P. Ñeco, Mikel L. Forcada</author>
+<title>Beyond Mealy machines: learning translators with recurrent neural networks</title>
+<booktitle>Proc. WCNN'96 (World Congress on Neural Networks), San Diego, Sept.
+1996.</booktitle>
+<pages>408-411</pages> 
+<publisher>INNS Press/Lawrence-Erlbaum Assoc.</publisher>
+<year>1996</year>
+<ps-available/>
+</inproceedings>
+
+
+<inproceedings key="kremer98p">
+<author>Stefan C. Kremer, Ramón P. Ñeco, Mikel L. Forcada</author>
+<title>Constrained second-order recurrent networks for finite-state automata induction</title>
+<editors>Niklasson, L., Bodén, M., Ziemke, T.</editors>
+<booktitle>Proceedings of the
+8th International Conference on Artificial Neural Networks
+ICANN'98</booktitle>
+<note>Skövde, Sweden, 2-4 September 1998</note>
+<volume>2</volume>
+<year>1998</year>
+<pages>529-534</pages>
+<ps-available/>
+</inproceedings>
+
+
+
+<inproceedings key="forcada97p">
+  <author>M.L. Forcada, R.P. Ñeco</author>
+  <title>Recursive Hetero-Associative Memories for Translation</title>
+  <booktitle>Biological and Artificial Computation: From Neuroscience to Technology</booktitle>
+<note>Proceedings of the 1997 International Work-conference on Artificial and
+                  Natural Neural Networks</note>
+<series>Lecture Notes in Computer Science</series>
+<volume>1240</volume>
+<year>1997</year>
+<editors>J. Mira, R. Moreno-Díaz, J. Cabestany</editors>
+<pages>453-462</pages>
+<address>Berlin</address>
+<publisher>Springer-Verlag</publisher>
+<pdf-available/>
+</inproceedings>
+
+<article key="forcada95j">
+<author>M. L. Forcada, R. C. Carrasco</author>
+<title>Learning the initial state of a second-order
+                  recurrent neural network during regular-language
+                  inference</title>
+<journal>Neural Computation</journal>
+<year>1995</year>
+<volume>7</volume>
+<number>5</number>
+<pages>923-930</pages>
+<ps-available/>
+</article>
+
+<article key="carrasco95j">
+<author>R.C. Carrasco, Mikel L. Forcada</author>
+<title>A note on the Nagendraprasad-Wang-Gupta
+thinning algorithm</title>
+<journal>Pattern Recognition Letters</journal>
+<volume>16</volume>
+<year>1995</year>
+<pages>539-541</pages>
+</article>
+
+
+<inproceedings key="forcada00p">
+<author>Mikel L. Forcada</author> 
+<title>Learning machine translation
+strategies using commercial systems: discovering word-reordering
+rules</title> 
+<booktitle>Proceedings MT 2000: Machine Translation and Multilingual
+Applications in the New Millennium</booktitle>
+<note>Exeter, UK, November
+2000</note>
+<year>2000</year>
+<pdf-available/>
+</inproceedings>
+
+    <article key="forcada93j">
+      <title>{Molecular layering during evaporation of ultrathin liquid films</title>
+      <author>Mikel L. Forcada, C. Mathew Mate</author>
+      <journal>Nature</journal>
+      <year>1993</year>
+      <volume>363</volume>
+      <pages>527-529</pages>
+    </article>
+
+    <article key="forcada93j2">
+      <title>Instability in a system of two interacting liquid films: Formation of liquid bridges between solid surfaces</title>
+      <author>Mikel L. Forcada</author>
+      <journal>The Journal of Chemical Physics</journal>
+      <volume>98</volume>
+      <pages>638-643</pages>
+      <year>1993</year>
+      <note>Copyright (1993) American Institute of Physics. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the American Institute of Physics. http://link.aip.org/link/doi/10.1063/1.464606</note>
+    <pdf-available/>
+    </article>
+
+    <article key="forcada93j3">
+      <title>Flow of thin lubricant films on rotating disks</title>
+      <author>Mikel L. Forcada, C. Mathew Mate</author>
+      <journal>Wear</journal>
+      <volume>168</volume>
+      <number>1</number>
+      <pages>21-25</pages>
+      <year>1993</year>
+    </article>
+
+    <article key="forcada91j">
+      <title>On liquid-film thickness measurements with the atomic-force microscope</title>
+      <author>Mikel L. Forcada, Mario M. Jakas, Alberto Gras-Martí</author>
+      <year>1991</year>
+      <pages>706-708</pages>
+      <volume>95</volume>
+      <number>1</number>
+    </article>
+
+    <article key="forcada91j2">
+      <title>PLEC: a program for building, modelling and optimizing polypeptide structures</title>
+      <author>Mikel L. Forcada</author>
+      <journal>Computer Physics Communications</journal>
+      <volume>64</volume>
+      <number>1</number>
+      <pages>131-139</pages>
+      <year>1991</year>
+    </article>
+
+</publications>
+
+
+<contactinfo>
+<name>Mikel L. Forcada</name>
+<picture>forcada.png</picture>
+<phone>++34 96 590 9776</phone>
+<fax>++34 96 590 9326</fax>
+<emailaddress>mlf@dlsi.ua.es</emailaddress>
+<postaladdress>
+   <line url="http://www.dlsi.ua.es/">Departament de Llenguatges i Sistemes Informàtics</line>
+   <line url="http://www.ua.es/">Universitat d'Alacant</line>
+   <line>E-03071 Alacant (Spain)</line>
+</postaladdress>
+</contactinfo>
+
+<officehours>
+  <validity>11.09.2017-31.01.2018</validity>
+<segment>
+<dayofweek>3</dayofweek>  
+<hour>10:30-12:30</hour>
+</segment>
+<segment>
+<dayofweek>4</dayofweek>  
+<hour>10:30-12:30</hour>
+</segment>
+</officehours>
+
+<teaching>
+<academicyear>2015-2016</academicyear>
+
+<subject>
+<name>Tecnologies de la Traducció</name>
+<englishname>Translation Technologies</englishname>
+<degree>Grau en Traducció i Interpretació</degree>
+<englishdegree>Degree in Translation and
+Interpretation</englishdegree>
+</subject>
+
+
+<subject>
+<name>Anàlisi i Disseny d'Algorismes</name>
+<englishname>Analysis and Design of Algorithms</englishname>
+<degree>Grau en Enginyeria Informàtica</degree>
+<englishdegree>Degree in Computer Engineering</englishdegree>
+<!-- <url>http://www.dlsi.ua.es/~mlf/</url> -->
+</subject>
+
+<!--
+<subject>
+<name>Traducció Automàtica: Fonaments i Aplicacions</name>
+<englishname>Machine Translation: Fundamentals and Applications</englishname>
+<degree>Màster Internacional en Aprenentatge Computacional i Mineria de Dades</degree>
+<englishdegree>International Master's degree on Machine Learning and Data Mining</englishdegree>
+<url>http://www.iuii.ua.es/MLDM/</url>
+</subject>
+
+<subject>
+<name>Tècniques Avançades en Traducció Automàtica</name>
+<englishname>Advanced Techniques in Machine Translation</englishname>
+<degree>Màster Internacional en Aprenentatge Computacional i Mineria de Dades</degree>
+<englishdegree>International Master's degree on Machine Learning and Data Mining</englishdegree>
+<url>http://www.iuii.ua.es/MLDM/</url>
+</subject>
+-->
+</teaching>
+
+<extra-links> <!-- for left bar; not used yet by XSLT -->
+<link lang="en" 
+url="http://www.dlsi.ua.es/eines/membre.cgi?id=eng&amp;nom=mlf">official
+webpage</link>
+<link lang="ca" 
+url="http://www.dlsi.ua.es/eines/membre.cgi?id=val&amp;nom=mlf">pàgina
+oficial </link>
+<!-- <link url="http://openmatrex.org" lang="en">OpenMaTrEx: free/open-source marker-driven example-based machine translation</link>
+<link url="http://computing.dcu.ie/~mforcada/ebmt3/"
+lang="en">3rd Workshop on Example-Based Machine Translation</link>
+<link url="http://xixona.dlsi.ua.es/freerbmt09/"
+lang="en">First International Workshop on Free/Open-Source Rule-based Machine
+Translation</link> -->
+<link lang="en"
+url="http://apertium.org">Apertium: free/open-source machine translation</link>
+<link lang="ca"
+url="http://apertium.org">Apertium: traducció automàtica lliure/de codi font obert</link>
+<!--
+<link lang="en"
+url="http://www.internostrum.com/welcome.php">interNOSTRUM
+      (Spanish-Catalan machine translation)</link>
+<link lang="ca"
+url="http://www.internostrum.com/index.php">interNOSTRUM (traducció
+      automàtica espanyol-català)</link>
+-->
+<link lang="en"
+url="http://home.gna.org/orthoepikon/">Orthoepikon: an open-source toolbox to build
+reading-aloud assistants</link>
+<link lang="ca"
+url="http://home.gna.org/orthoepikon/index_ca.html">Orthoepikon: 
+caixa d'eines de codi obert per a construir sistemes d'assistència a la
+lectura en veu alta</link>
+<link lang="en"
+url="http://bitext2tmx.sourceforge.net">bitext2tmx: an open-source
+cross-platform bitext aligner</link>
+<link lang="ca"
+url="http://bitext2tmx.sourceforge.net/index_ca.html">bitext2tmx:
+alineador de bitextos multiplataforma de codi obert</link>
+<link lang="en" url="http://tag-aligner.sourceforge.net/">tagaligner: open-source
+aligner for (X)HTML parallel text</link>
+<link lang="en" url="https://sourceforge.net/p/bitextor/wiki/Home/">Bitextor: an
+automatic bitext harvester</link>
+<!--
+<link lang="en" url="http://tei.sf.net/">TEI: Text Encoding Initiative</link> -->
+<link lang="en" url="http://arboratrix.sourceforge.net/">arboratrix: a
+graphical parse-tree editor</link>
+<link lang="ca"
+url="http://sao.dlsi.ua.es">SAÓ: ajuda a la lectura en veu alta del valencià</link>
+<!-- <link lang="ca"
+url="tael.html">Traductors automàtics en línia</link> -->
+<!-- <link lang="ca"
+url="http://mlforcada.blogspot.com">"Blog" personal</link>
+<link lang="en" url="http://www.dlsi.ua.es/t4/">Teaching translation
+      technologies and tools</link> -->
+<link lang="en" url="http://www.dlsi.ua.es/~mlf/nnafmc/">Neural networks,
+automata, and formal models of computation</link>
+<!-- <link lang="ca" url="http://cbfakraleuka.googlepages.com">Club de Bàsquet
+Femení Akra Leuka</link> -->
+</extra-links>
+
+
+</webpage>
+<!--
+
+-->

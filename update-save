@@ -1,0 +1,5 @@
+for i in home_en home_ct publ_en publ_ct off_en off_ct doc_en doc_ct
+do 
+   sabcmd xsl/$i.xsl xml/alldata.xml >website/$i.html
+done
+cp website/home_en.html website/index.html

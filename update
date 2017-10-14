@@ -1,0 +1,7 @@
+for i in home_en home_ct publ_en publ_ct off_en off_ct doc_en doc_ct
+do 
+   xsltproc xsl/$i.xsl xml/alldata.xml >/tmp/$i.html
+   sed 's/ xmlns=""//g' </tmp/$i.html >website/$i.html
+   tidy -m -latin1 -asxml -indent -clean website/$i.html
+done
+cp website/home_en.html website/index.html
