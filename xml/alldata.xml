@@ -107,6 +107,19 @@
 <webpage>
 <publications>
 
+    <article key="forcada17j2">
+      <author>Forcada, M.L.</author>
+      <title>Making sense of neural machine translation</title>
+      <journal>Translation Spaces</journal>
+      <year>2017</year>
+      <volume>6</volume>
+      <number>2</number>
+      <pages>291-309</pages>
+      <note>Author's preprint. Published paper under copyright. Contact John Benjamins Publishing Company if you need permission to reuse or reprint the material in any form.</note>
+      <pdf-available/>
+    </article>
+	
+
 <inproceedings key="forcada17p">
 <author>Forcada, M.L., Esplà-Gomis, M., Sánchez-Martínez, F., Specia, L.</author>
 <title>One-parameter models for sentence-level post-editing effort estimation</title>
@@ -116,6 +129,8 @@
 <note>Nagoya, Sep. 18-22, 2017</note>
 <pdf-available/>
 </inproceedings>
+
+
 
 
 <inproceedings key="jordan17p">
