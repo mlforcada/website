@@ -306,7 +306,7 @@ Abu-MaTran Project</title>
       <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
       <title>Using on-line available sources of bilingual information for word-level machine translation quality estimation</title>
       <year>2015</year>
-      <booktitle>Proceedings of EAMT 2015, The Eigtheenth Annual Conference of the European Association for Machine Translation</booktitle>
+      <booktitle>Proceedings of 2015, The Eigtheenth Annual Conference of the European Association for Machine Translation</booktitle>
      <pages>19-26</pages> 
       <note>Antalya, May 11-13, 2015</note>
       <pdf-available/>
@@ -396,7 +396,7 @@ Lenguaje Natural, Madrid, Spain, 16-18.09.2013</note>
 llengües menors</title>
 <booktitle>Les fronteres del multilingüisme: una visió actual i pluridisciplinar sobre el multilingüisme en la societat contemporània</booktitle>
 <publisher>Editorial UOC</publisher>
-<editor>Bos i Solé, A.</editor>
+<editors>Bos i Solé, A.</editors>
 <pages>57-80</pages>
 <year>2012</year>
 </inbook>
@@ -537,6 +537,18 @@ to unknown words
       <pages>127-144</pages>
       <year>2011</year>
     </article>
+    
+    <inproceedings key="dandapat11p">
+		<author>Sandipan Dandapat, Sara Morrissey, Andy Way, Mikel L. Forcada</author>
+		<title>Using Example-Based MT to Support Statistical MT when Translating
+Homogeneous Data in a Resource-Poor Setting</title>
+    <booktitle>Proceedings of the 15th Conference of the European Association for Machine Translation (EAMT 2011)</booktitle>
+    <editors>Mikel L. Forcada, Heidi Depraetere, Vincent Vandeghinste</editors>
+    <year>2011</year>
+    <pages>201-208</pages>
+    <pdf-available/>
+    </inproceedings>
+    
 
     <inproceedings key="dandapat10p">
       <author>Sandipan Dandapat, Mikel L. Forcada, Declan Groves,
@@ -548,7 +560,7 @@ to unknown words
       <booktitle>Proceedings of IceTAL 2010</booktitle>
       <note>Reykjavík, 16-18 Aug. 2010</note>
 	<pages>121-126</pages>
-	<editor>Hrafn Loftsson, Eiríkur Rögnvaldsson, Sigrún Helgadóttir</editor>
+	<editors>Hrafn Loftsson, Eiríkur Rögnvaldsson, Sigrún Helgadóttir</editors>
       <pdf-available/>
     </inproceedings>
 
@@ -1338,7 +1350,7 @@ classification task</title>
 de Formas y Análisis de Imágenes</booktitle>   
 <volume>1</volume>
 <pages>211-216</pages>
-<editor>M.I. Torres and A. Sanfeliu</editor>
+<editors>M.I. Torres and A. Sanfeliu</editors>
 <year>1999</year>
 </inproceedings>
 
