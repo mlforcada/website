@@ -105,7 +105,27 @@
 
 ]>
 <webpage>
-<publications>
+  <publications>
+
+    <inproceedings key="forcada18p">
+      <author>Forcada, M.L., Scarton, C., Specia, L., Haddow, B., Birch, A.</author>
+      <title>Exploring Gap Filling as a Cheaper Alternative to Reading Comprehension Questionnaires when Evaluating Machine Translation for Gisting</title>
+      <pages>192-203</pages>
+      <year>2018</year>
+      <booktitle>Proceedings of the 3rd Conference on Machine Translation (WMT18)</booktitle>
+      <note>Brussels, Oct. 31-Nov. 1, 2018</note>
+      <pdf-available/>
+</inproceedings>
+
+    <inproceedings key="forcada18p2">
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>UAlacant machine translation quality estimation at WMT 2018: a simple approach using phrase tables and feed-forward neural networks</title>
+      <pages>814-823</pages> -->
+      <year>2018</year>
+      <booktitle>Proceedings of the 3rd Conference on Machine Translation (WMT18)</booktitle>
+      <note>Brussels, Oct. 31-Nov. 1, 2018</note>
+      <pdf-available/>
+</inproceedings>
 
     <article key="forcada17j2">
       <author>Forcada, M.L.</author>
@@ -154,6 +174,17 @@ linguistic intercomprehension</title>
       <year>2016</year>
       <pdf-available/>
     </inproceedings>
+
+<misc key="bel16p">
+	<author>Bel, N., Forcada, M.L., Gómez-Pérez, A.</author>
+	<title>A Maturity Model for Public Administration Open Translation Data	Providers</title>
+	<howpublished>https://arxiv.org/pdf/1607.01990.pdf</howpublished>
+	<year>2016</year>
+	<note>Presented at MetaForm 2016, Lisbon, July 4-5.</note>
+	<pdf-available/>
+	<pdfslides-available/>
+</misc>
+
 
     <inproceedings key="torregrosa16p">
       <author>Torregrosa, D., Pérez-Ortiz, J.A., Forcada, M.L.</author>
