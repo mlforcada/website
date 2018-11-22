@@ -127,6 +127,16 @@
       <pdf-available/>
 </inproceedings>
 
+    <inproceedings key="koehn18p">
+      <author>Koehn, P.,  Khayrallah, H., Heafield, K., Forcada, M.L.</author>
+      <title>Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering/title>
+      <pages>739-752</pages> -->
+      <year>2018</year>
+      <booktitle>Proceedings of the 3rd Conference on Machine Translation (WMT18)</booktitle>
+      <note>Brussels, Oct. 31-Nov. 1, 2018</note>
+      <pdf-available/>
+</inproceedings>
+
     <article key="forcada17j2">
       <author>Forcada, M.L.</author>
       <title>Making sense of neural machine translation</title>
