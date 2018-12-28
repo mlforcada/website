@@ -107,6 +107,17 @@
 <webpage>
   <publications>
 
+    <article key="espla18j">
+      <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
+      <title>Predicting insertion positions in word-level machine translation quality estimation</title>
+      <journal>Applied Soft Computing</journal>
+      <year>2019</year>
+      <volume>79</volume>
+      <pages>174-192</pages>
+      <note>https://doi.org/10.1016/j.asoc.2018.11.036</note>
+      <pdf-available/>
+    </article>
+    
     <inproceedings key="forcada18p">
       <author>Forcada, M.L., Scarton, C., Specia, L., Haddow, B., Birch, A.</author>
       <title>Exploring Gap Filling as a Cheaper Alternative to Reading Comprehension Questionnaires when Evaluating Machine Translation for Gisting</title>
@@ -129,8 +140,8 @@
 
     <inproceedings key="koehn18p">
       <author>Koehn, P.,  Khayrallah, H., Heafield, K., Forcada, M.L.</author>
-      <title>Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering/title>
-      <pages>739-752</pages> -->
+      <title>Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering</title>
+      <pages>739-752</pages> 
       <year>2018</year>
       <booktitle>Proceedings of the 3rd Conference on Machine Translation (WMT18)</booktitle>
       <note>Brussels, Oct. 31-Nov. 1, 2018</note>
