@@ -106,6 +106,16 @@
 ]>
 <webpage>
   <publications>
+	  
+	  <inproceedings key="scarton19p">
+      <author>Scarton, C., Forcada, M.L., Esplà-Gomis, M., Specia, L.</author>
+      <title>Estimating post-editing effort: a study on human judgements, task-based and
+reference-based metrics of MT quality</title>
+      <year>2019</year>
+      <booktitle>Proceedings of IWSLT 2019</booktitle>
+      <note>Hong Kong, Nov. 2-3, 2019</note>
+      <pdf-available/>
+</inproceedings>
 
     <article key="espla18j">
       <author>Esplà-Gomis, M., Sánchez-Martínez, F., Forcada, M.L.</author>
@@ -117,6 +127,9 @@
       <note>https://doi.org/10.1016/j.asoc.2018.11.036</note>
       <pdf-available/>
     </article>
+    
+    
+    
     
     <inproceedings key="forcada18p">
       <author>Forcada, M.L., Scarton, C., Specia, L., Haddow, B., Birch, A.</author>
