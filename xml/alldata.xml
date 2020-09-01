@@ -107,6 +107,7 @@
 <webpage>
   <publications>
 	  
+	  
 <article key="forcada20en">
 <author>Forcada, M.L.</author>
 <title>Building machine translation systems for minor languages: challenges and effects</title>
@@ -116,6 +117,14 @@
 <note>Catalan version below</note>
 <year>2020</year>
 <pdf-available/>
+</article>
+
+<article key="ortega20j">
+	<author>Ortega, J.E., Forcada, M.L., Sánchez-Martínez, F.</author>
+	<title>Fuzzy match repair guided by quality estimation</title>
+	<journal>IEEE Transactions on Pattern Analysis and Machine Intelligence</journal>
+	<year>2020</year>
+	<note>in press</note>
 </article>
 
 <article key="forcada20ca">
