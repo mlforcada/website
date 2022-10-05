@@ -106,6 +106,18 @@
 ]>
 <webpage>
   <publications>
+
+	  
+<inbook key="perezortiz22b">
+<author>Pérez-Ortiz, J.A., Forcada, M.L., Sánchez-Martínez, F.</author>
+<title>How neural machine translation works</title>
+<booktitle>Machine translation for everyone: Empowering users in the age of artificial intelligence.</booktitle>
+<publisher>Language Science Press</publisher>
+<editors>Kenny, D.</editors>
+<pages>141-164/pages>
+<year>2022</year>
+<pdf-available/>
+</inbook>
 	  
 <article key="goel22j">
 	<author>Goel, S., Gracia, J., Forcada, M.L.</author>
@@ -113,9 +125,11 @@
 	<journal>Semantic Web</journal>
 	<volume>13</volume>
 	<year>2022</year>
-	<pages>1103-1132	</pages>
+	<pages>1103-1132s</pages>
 	<pdf-available/>
 </article>	 
+
+
 	  
 <article key="forcada20en">
 <author>Forcada, M.L.</author>
