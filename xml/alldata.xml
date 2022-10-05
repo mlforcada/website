@@ -106,7 +106,6 @@
 ]>
 <webpage>
   <publications>
-
 	  
 <inbook key="perezortiz22b">
 <author>Pérez-Ortiz, J.A., Forcada, M.L., Sánchez-Martínez, F.</author>
@@ -114,20 +113,46 @@
 <booktitle>Machine translation for everyone: Empowering users in the age of artificial intelligence.</booktitle>
 <publisher>Language Science Press</publisher>
 <editors>Kenny, D.</editors>
-<pages>141-164/pages>
+<pages>141-164</pages>
 <year>2022</year>
 <pdf-available/>
 </inbook>
-	  
+
+  
 <article key="goel22j">
 	<author>Goel, S., Gracia, J., Forcada, M.L.</author>
 	<title>Bilingual dictionary generation and enrichment via graph exploration</title>
 	<journal>Semantic Web</journal>
 	<volume>13</volume>
 	<year>2022</year>
-	<pages>1103-1132s</pages>
+	<pages>1103-1132</pages>
+	<note>doi:10.3233/SW-222899</note>
 	<pdf-available/>
 </article>	 
+
+<inproceedings key="forcada22p">
+	<authors>Forcada, M.L., Sánchez-Gijón, P., Kenny, D., Sánchez-Martínez, F., Pérez-Ortiz, J.A., Superbo, R., Ramírez-Sánchez, G., Torres-Hostench, O., Rossi, C.</authors>
+	<title>MultitraiNMT Erasmus+ project: machine translation training for multilingual citizens (multitrainmt.eu)</title>
+	<booktitle>Proceedings of the 23rd Annual Conference of the European Association for Machine Translation</booktitle>
+	<year>2022</year>
+	<pages>291-292</pages>
+	<note>https://aclanthology.org/2022.eamt-1.35</note>
+	<pdf-available/>
+</inproceedings>
+
+<inproceedings key="banon22p">
+	<authors>Bañón, M., Esplá-Gomis, M., Forcada, M.L., García-Romero, C., Kuzman, T., Ljubesic, N., van Noord, R., Pla Sempere, L.,  Ramírez-Sánchez, G.,  Rupnik, P., Suchomel, V., Toral, A., van der Werff, T., Zaragoza, J. </authors>
+	<title>MaCoCu: Massive collection and curation of monolingual and bilingual data: focus on under-resourced languages</title>
+	<booktitle>Proceedings of the 23rd Annual Conference of the European Association for Machine Translation</booktitle>
+	<year>2022</year>
+	<pages>303-304</pages>
+	<note>https://aclanthology.org/2022.eamt-1.41.pdf</note>
+	<pdf-available/>
+</inproceedings>
+
+
+
+
 
 
 	  
