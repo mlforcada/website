@@ -1864,13 +1864,16 @@ Applications in the New Millennium</booktitle>
 <contactinfo>
 <name>Mikel L. Forcada</name>
 <picture>forcada.png</picture>
+<!--
 <phone>++34 96 590 9776</phone>
 <fax>++34 96 590 9326</fax>
-<emailaddress>mlf@dlsi.ua.es</emailaddress>
+-->
+<emailaddress>mlf@prompsit.com</emailaddress>
 <postaladdress>
-   <line url="http://www.dlsi.ua.es/">Departament de Llenguatges i Sistemes Informàtics</line>
-   <line url="http://www.ua.es/">Universitat d'Alacant</line>
-   <line>E-03071 Alacant (Spain)</line>
+   <line url="http://www.prompsit.com">Prompsit Language Engineering</line>
+   <line>Edifici Quorum III</line>
+   <line>Avinguda de la Universitat, s/n</line>
+   <line>E-03202 Elx (Spain)</line>
 </postaladdress>
 </contactinfo>
 
@@ -1926,12 +1929,15 @@ Interpretation</englishdegree>
 </teaching>
 
 <extra-links> <!-- for left bar; not used yet by XSLT -->
+<!--
 <link lang="en" 
 url="http://www.dlsi.ua.es/eines/membre.cgi?id=eng&amp;nom=mlf">official
 webpage</link>
+
 <link lang="ca" 
 url="http://www.dlsi.ua.es/eines/membre.cgi?id=val&amp;nom=mlf">pàgina
 oficial </link>
+-->
 <!-- <link url="http://openmatrex.org" lang="en">OpenMaTrEx: free/open-source marker-driven example-based machine translation</link>
 <link url="http://computing.dcu.ie/~mforcada/ebmt3/"
 lang="en">3rd Workshop on Example-Based Machine Translation</link>
@@ -1939,9 +1945,9 @@ lang="en">3rd Workshop on Example-Based Machine Translation</link>
 lang="en">First International Workshop on Free/Open-Source Rule-based Machine
 Translation</link> -->
 <link lang="en"
-url="http://apertium.org">Apertium: free/open-source machine translation</link>
+url="https://apertium.org/index.eng.html">Apertium: free/open-source machine translation</link>
 <link lang="ca"
-url="http://apertium.org">Apertium: traducció automàtica lliure/de codi font obert</link>
+url="https://apertium.org/index.cat.html">Apertium: traducció automàtica lliure/de codi font obert</link>
 <!--
 <link lang="en"
 url="http://www.internostrum.com/welcome.php">interNOSTRUM
@@ -1950,6 +1956,7 @@ url="http://www.internostrum.com/welcome.php">interNOSTRUM
 url="http://www.internostrum.com/index.php">interNOSTRUM (traducció
       automàtica espanyol-català)</link>
 -->
+<!--
 <link lang="en"
 url="http://home.gna.org/orthoepikon/">Orthoepikon: an open-source toolbox to build
 reading-aloud assistants</link>
@@ -1967,12 +1974,13 @@ alineador de bitextos multiplataforma de codi obert</link>
 aligner for (X)HTML parallel text</link>
 <link lang="en" url="https://sourceforge.net/p/bitextor/wiki/Home/">Bitextor: an
 automatic bitext harvester</link>
-<!--
-<link lang="en" url="http://tei.sf.net/">TEI: Text Encoding Initiative</link> -->
+<link lang="en" url="http://tei.sf.net/">TEI: Text Encoding Initiative</link> 
 <link lang="en" url="http://arboratrix.sourceforge.net/">arboratrix: a
-graphical parse-tree editor</link>
+graphical parse-tree editor</link> -->	
+<!--
 <link lang="ca"
 url="http://sao.dlsi.ua.es">SAÓ: ajuda a la lectura en veu alta del valencià</link>
+-->	
 <!-- <link lang="ca"
 url="tael.html">Traductors automàtics en línia</link> -->
 <!-- <link lang="ca"
