@@ -34,12 +34,14 @@
 <tr><td>
 <a href="publ_en.html"><font face="arial,helvetica"><b>publications</b></font></a>
 </td></tr>
+<!--
 <tr><td>
 <a href="doc_en.html"><font face="arial,helvetica"><b>teaching</b></font></a>
 </td></tr>
 <tr><td>
 <a href="off_en.html"><font face="arial,helvetica"><b>office hours</b></font></a>
 </td></tr>
+-->
 <tr><td><xsl:text> </xsl:text> </td></tr>
 <tr><td><xsl:text> </xsl:text> </td></tr>
 <xsl:for-each select="/webpage/extra-links/*">
@@ -77,19 +79,21 @@
 
 
 <xsl:template match="contactinfo">
-<p><font face="arial,helvetica"><xsl:text>Full professor</xsl:text></font></p>
+<p><font face="arial,helvetica"><xsl:text>Full Universitat d'Alacant professor, retired (archived website)</xsl:text></font></p>
 <img src="images/{./picture/text()}" alt="Picture of {./name/text()}"/>
 <h2><font face="arial,helvetica"><xsl:text>Contact information</xsl:text></font></h2>
 <p><font face="arial,helvetica"><b>Postal address: </b></font></p>
 <xsl:apply-templates select="postaladdress"/>
+<!--
 <p>
 <font face="arial,helvetica"><b>Phone</b>: <xsl:value-of select="phone"/> </font>
 </p>
 <p>
 <font face="arial,helvetica"><b>Fax</b>: <xsl:value-of select="fax"/></font>
 </p>
+-->
 <p>
-<font face="arial,helvetica"><b>E-mail address </b>:</font> <a href="mailto:{./emailaddress/text()}"><tt><xsl:value-of select="emailaddress"/></tt></a>
+<font face="arial,helvetica"><b>E-mail address </b>:</font> <a href="ma	ilto:{./emailaddress/text()}"><tt><xsl:value-of select="emailaddress"/></tt></a>
 </p>
 </xsl:template>
 

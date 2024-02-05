@@ -34,12 +34,14 @@
 <tr><td>
 <font face="arial,helvetica">publicacions</font>
 </td></tr>
+<!-- 
 <tr><td>
 <a href="doc_ct.html"><font face="arial,helvetica"><b>docència</b></font></a>
 </td></tr>
 <tr><td>
 <a href="off_ct.html"><font face="arial,helvetica"><b>assistència a l'alumnat</b></font></a>
 </td></tr>
+-->
 <tr><td><xsl:text> </xsl:text> </td></tr>
 <tr><td><xsl:text> </xsl:text> </td></tr>
 <xsl:for-each select="/webpage/extra-links/*">
@@ -64,17 +66,17 @@
   </xsl:text>
 </td>
 </tr>
-</table> <div align="right"><br /><br />
+</table> <!-- <div align="right"><br /><br />
       <a href="http://validator.w3.org/check/referer"><img
          src="images/valid-xhtml10.gif"
-         alt="XHTML 1.0 valid!" border="0" /></a><br /><br /></div>
+         alt="XHTML 1.0 valid!" border="0" /></a><br /><br /></div> -->
   </body><xsl:text>
   </xsl:text>
   </html>
 </xsl:template>
 
 <xsl:template match="publications">
-  <h1><font face="arial,helvetica">Publicacions</font></h1>
+  <h1><font face="arial,helvetica">Publicacions (arxiu)</font></h1>
     <xsl:for-each select="inproceedings|article|inbook|book|misc">
       <xsl:sort select=".//year/text()"/>
       <xsl:choose>
